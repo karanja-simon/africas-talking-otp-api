@@ -8,11 +8,7 @@ with your values.
 
 ### Prerequisites
 
-
-
-```
-Give examples
-```
+Node version 6 and above.
 
 ### Installing
 
@@ -23,7 +19,13 @@ npm install
 npm run watch-ts
 npm run watch-node
 ```
-Hit 
+You can use PostMan or Curl to hit the following endpoints
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 
 ```
@@ -52,7 +54,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Simon.K** - *Initial work* - [PurpleBooth](https://github.com/karanja-simon/AfricasTalkingOTP-Api)
+* **Simon.K** - *Initial work* 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
