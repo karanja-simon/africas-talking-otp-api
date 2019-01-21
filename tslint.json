@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {"max-line-length": {
+    "options": [120]
+  }},
+  "rules": {
+    "object-literal-sort-keys": false,
+    "interface-name": [false],
+    "no-console": [false],
+    "quotemark": [true, "single"]
+  },
+  "rulesDirectory": []
+}
