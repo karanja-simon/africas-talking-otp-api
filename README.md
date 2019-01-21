@@ -30,15 +30,13 @@ You can use PostMan or Curl to hit the following endpoints
 
 ## Example (Optional)
 
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
+```curl
+curl -X POST \
+  http://localhost:3000/api/v1/otp \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: 42809ea9-8894-4b29-9d5a-028523fe4dea' \
+  -H 'cache-control: no-cache' \
+  -d phoneNo=0711714306
 ```
 
 ---
