@@ -39,7 +39,6 @@ curl -X POST \
   -d phoneNo=071XXXXXX
 ```
 
----
 ## Example (Verify OTP)
 
 ```curl
