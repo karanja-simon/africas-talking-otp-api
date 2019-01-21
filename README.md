@@ -3,7 +3,7 @@
 
 One Time Pasword (OTP) code generation using otplib and AfricasTalking SMS gateway.
 ## Getting Started
-You will need to register for an API key on the AfricasTalking portal [AfricasTalking](https://africastalking.com/). Update ```/src/config/congi.json```
+You will need to register for an API key on the AfricasTalking portal [AfricasTalking](https://africastalking.com/). Update ```/src/config/config.json```
 with your values.
 
 ### Prerequisites
