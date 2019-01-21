@@ -12,7 +12,7 @@ Node version 6 and above.
 
 ### Installing
 
-Git clone (https://github.com/karanja-simon/AfricasTalkingOTP-Api.git)
+Git clone (https://github.com/karanja-simon/AfricasTalkingOTP-Api.git). 
 Run 
 ```
 npm install 
@@ -26,7 +26,7 @@ You can use PostMan or Curl to hit the following endpoints
 | /api/v1/otp |  POST| Generate an OTP code and send it to provided No. |
 | /api/v1/otp/verify |    POST   |   Check OTP code validity |
 | /api/v1/otp/time/elapsed |    GET | Get elapsed time since the OTP was generated
-
+| /api/v1/otp/time/remaining |    GET | Get time remainging until the OTP expires
 
 ```
 Give the example
