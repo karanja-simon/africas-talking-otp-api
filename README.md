@@ -28,17 +28,20 @@ You can use PostMan or Curl to hit the following endpoints
 | /api/v1/otp/time/elapsed |    GET | Get elapsed time since the OTP was generated
 | /api/v1/otp/time/remaining |    GET | Get time remainging until the OTP expires
 
-```
-Give the example
+## Example (Optional)
+
+```javascript
+// code away!
+
+let generateProject = project => {
+  let code = [];
+  for (let js = 0; js < project.length; js++) {
+    code.push(js);
+  }
+};
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+---
 
 
 
