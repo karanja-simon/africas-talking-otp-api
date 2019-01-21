@@ -18,12 +18,12 @@ Give examples
 
 Git clone (https://github.com/karanja-simon/AfricasTalkingOTP-Api.git)
 Run 
-```npm install 
+```
+npm install 
 npm run watch-ts
 npm run watch-node
 ```
 Hit 
-``` http
 
 
 ```
