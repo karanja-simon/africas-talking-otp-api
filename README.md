@@ -21,11 +21,11 @@ npm run watch-node
 ```
 You can use PostMan or Curl to hit the following endpoints
 
-| Tables   |      Are      |  Cool |
+| Resource   |      Action     |  Summary |
 |----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| /api/v1/otp |  POST| Generate an OTP code and send it to provided No. |
+| /api/v1/otp/verify |    POST   |   Check OTP code validity |
+| /api/v1/otp/time/elapsed |    GET | Get elapsed time since the OTP was generated
 
 
 ```
