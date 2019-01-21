@@ -28,7 +28,7 @@ You can use PostMan or Curl to hit the following endpoints
 | /api/v1/otp/time/elapsed |    GET | Get elapsed time since the OTP was generated
 | /api/v1/otp/time/remaining |    GET | Get time remainging until the OTP expires
 
-## Example (Optional)
+## Example (Generate OTP)
 
 ```curl
 curl -X POST \
@@ -36,11 +36,21 @@ curl -X POST \
   -H 'Content-Type: application/x-www-form-urlencoded' \
   -H 'Postman-Token: 42809ea9-8894-4b29-9d5a-028523fe4dea' \
   -H 'cache-control: no-cache' \
-  -d phoneNo=0711714306
+  -d phoneNo=071XXXXXX
 ```
 
 ---
+## Example (Verify OTP)
 
+```curl
+curl -X POST \
+  http://localhost:3000/api/v1/otp/verify \
+  -H 'Content-Type: application/x-www-form-urlencoded' \
+  -H 'Postman-Token: ea77fe0e-d8a7-470f-a52f-a8c33e8fd2c3' \
+  -H 'cache-control: no-cache' \
+  -d otpCode=251862
+
+```
 
 
 ## Built With
